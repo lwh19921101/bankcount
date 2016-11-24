@@ -1,0 +1,358 @@
+﻿生成启动时间为 2016/10/15 20:43:40。
+     1>项目“E:\vs2010 projict\Class\bankcount\bankcount\bankcount\bankcount.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\bankcount.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\bankcount.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         e:\vs dir\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bank.cpp main.cpp user.cpp work.cpp
+         work.cpp
+     1>e:\vs2010 projict\class\bankcount\bankcount\bankcount\work.cpp(41): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 e:\vs dir\vc\include\conio.h(128) : 参见“getch”的声明
+     1>e:\vs2010 projict\class\bankcount\bankcount\bankcount\work.cpp(128): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 e:\vs dir\vc\include\conio.h(128) : 参见“getch”的声明
+         user.cpp
+     1>e:\vs2010 projict\class\bankcount\bankcount\bankcount\user.cpp(15): error C2679: 二进制“<<”: 没有找到接受“std::string”类型的右操作数的运算符(或没有可接受的转换)
+                 e:\vs dir\vc\include\ostream(679): 可能是“std::basic_ostream<_Elem,_Traits> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const char *)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(726): 或       “std::basic_ostream<_Elem,_Traits> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,char)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(764): 或       “std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const char *)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(811): 或       “std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,char)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(937): 或       “std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const signed char *)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(944): 或       “std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,signed char)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(951): 或       “std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const unsigned char *)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(958): 或       “std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,unsigned char)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(968): 或       “std::basic_ostream<_Elem,_Traits> &std::operator <<<char,std::char_traits<char>,std::string>(std::basic_ostream<_Elem,_Traits> &&,_Ty)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ty=std::string
+                 ]
+                 e:\vs dir\vc\include\ostream(1085): 或       “std::basic_ostream<_Elem,_Traits> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(186): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &))”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(192): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::basic_ios<_Elem,_Traits> &(__cdecl *)(std::basic_ios<_Elem,_Traits> &))”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(199): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(206): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::_Bool)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(226): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(short)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(260): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(unsigned short)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(280): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(int)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(305): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(unsigned int)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(325): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(long)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(345): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(unsigned long)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(366): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(__int64)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(386): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(unsigned __int64)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(407): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(float)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(427): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(double)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(447): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(long double)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(467): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(const void *)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(487): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::basic_streambuf<_Elem,_Traits> *)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 尝试匹配参数列表“(std::basic_ostream<_Elem,_Traits>, std::string)”时
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>e:\vs2010 projict\class\bankcount\bankcount\bankcount\user.cpp(19): error C2679: 二进制“<<”: 没有找到接受“std::string”类型的右操作数的运算符(或没有可接受的转换)
+                 e:\vs dir\vc\include\ostream(679): 可能是“std::basic_ostream<_Elem,_Traits> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const char *)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(726): 或       “std::basic_ostream<_Elem,_Traits> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,char)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(764): 或       “std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const char *)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(811): 或       “std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,char)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(937): 或       “std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const signed char *)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(944): 或       “std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,signed char)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(951): 或       “std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const unsigned char *)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(958): 或       “std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,unsigned char)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(968): 或       “std::basic_ostream<_Elem,_Traits> &std::operator <<<char,std::char_traits<char>,std::string>(std::basic_ostream<_Elem,_Traits> &&,_Ty)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ty=std::string
+                 ]
+                 e:\vs dir\vc\include\ostream(1085): 或       “std::basic_ostream<_Elem,_Traits> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(186): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &))”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(192): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::basic_ios<_Elem,_Traits> &(__cdecl *)(std::basic_ios<_Elem,_Traits> &))”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(199): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(206): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::_Bool)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(226): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(short)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(260): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(unsigned short)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(280): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(int)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(305): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(unsigned int)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(325): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(long)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(345): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(unsigned long)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(366): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(__int64)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(386): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(unsigned __int64)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(407): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(float)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(427): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(double)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(447): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(long double)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(467): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(const void *)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 e:\vs dir\vc\include\ostream(487): 或       “std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::basic_streambuf<_Elem,_Traits> *)”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 尝试匹配参数列表“(std::ostream, std::string)”时
+         main.cpp
+         bank.cpp
+     1>e:\vs2010 projict\class\bankcount\bankcount\bankcount\bank.cpp(4): fatal error C1083: 无法打开包括文件:“bankcounter.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“E:\vs2010 projict\Class\bankcount\bankcount\bankcount\bankcount.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.74
